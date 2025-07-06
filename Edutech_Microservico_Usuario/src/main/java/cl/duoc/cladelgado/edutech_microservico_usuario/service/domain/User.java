@@ -1,16 +1,39 @@
 package cl.duoc.cladelgado.edutech_microservico_usuario.service.domain;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Data @NoArgsConstructor @AllArgsConstructor @Builder
-@Document(collection = "users")
+@Entity
+@Table(name = "USUARIO")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class User {
     @Id
-    private String id;
-    private String username;
-    private String password;
+    @JsonProperty("rut")
+    @Column(name = "RUT_US")
+    private long rut;
+    @JsonProperty("dv")
+    @Column(name = "DV_US", nullable = false)
+    private String dv;
+
+    @JsonProperty("nombre")
+    @Column(name = "NOMBRES_US",nullable = false)
+    private String nombre;
+    @JsonProperty("apellido")
+    @Column(name = "APELLIDOS_US", nullable = false)
+    private String apellido;
+
+    @JsonProperty("correo")
+    @Column(name = "CORREOELECTRONICO_US",unique = true, nullable = false)
+    private String correo;
+
+    @JsonProperty("rol")
+    @Column(name = "ROL",nullable = false)
     private String role;
-    private String nombreCompleto;
-    private String email;
+
+    @JsonProperty("password")
+    @Column(name = "CONTRASENA",nullable = false)
+    private String password;
 }

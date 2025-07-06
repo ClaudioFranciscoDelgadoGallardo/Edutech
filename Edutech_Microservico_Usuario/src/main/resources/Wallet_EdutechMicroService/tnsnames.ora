@@ -1,0 +1,16 @@
+edutechmicroservice_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g0d2d4c8af7ebfa_edutechmicroservice_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+edutechmicroservice_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g0d2d4c8af7ebfa_edutechmicroservice_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+edutechmicroservice_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g0d2d4c8af7ebfa_edutechmicroservice_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
+ejercicio1_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g0d2d4c8af7ebfa_ejercicio1_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+ejercicio1_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g0d2d4c8af7ebfa_ejercicio1_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+ejercicio1_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g0d2d4c8af7ebfa_ejercicio1_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
