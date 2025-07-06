@@ -1,0 +1,2 @@
+WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="C:/Users/SoraR/OneDrive/Escritorio/Codigo/Edutech/Wallet_EdutechMicroService")))
+SSL_SERVER_DN_MATCH=yes
