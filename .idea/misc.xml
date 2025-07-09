@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Edutech_Microservico_Usuario/pom.xml" />
+        <option value="$PROJECT_DIR$/Edutech_Api_Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Edutech_Microservicio_Soporte_Ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/Edutech_Microservicio_Curso_Asignatura/pom.xml" />
       </list>
     </option>
   </component>
