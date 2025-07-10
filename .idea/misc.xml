@@ -8,7 +8,13 @@
         <option value="$PROJECT_DIR$/Edutech_Api_Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/Edutech_Microservicio_Soporte_Ticket/pom.xml" />
         <option value="$PROJECT_DIR$/Edutech_Microservicio_Curso_Asignatura/pom.xml" />
+        <option value="$PROJECT_DIR$/Edutech_Microservicio_Authenticacion/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Edutech_Microservicio_Authenticacion/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK">

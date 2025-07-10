@@ -26,27 +26,23 @@ public class SoporteController {
         return soporteService.findAll();
     }
 
-    /** READ ONE */
     @GetMapping("/{soporte}")
     public Soporte obtenerPorId(@PathVariable String soporte) {
         return soporteService.findById(soporte);
     }
 
-    /** FULL UPDATE */
     @PutMapping("/{soporte}")
     public void actualizarSoporte(@PathVariable String soporte,
                                   @RequestBody Soporte soporteRequest) {
         soporteService.partialUpdate(soporte, soporteRequest);
     }
 
-    /** PARTIAL UPDATE */
     @PatchMapping("/{soporte}")
     public void actualizarParcialSoporte(@PathVariable String soporte,
                                          @RequestBody Soporte soporteRequest) {
         soporteService.partialUpdate(soporte, soporteRequest);
     }
 
-    /** DELETE */
     @DeleteMapping("/{soporte}")
     public void eliminarSoporte(@PathVariable String soporte) {
         soporteService.remove(soporte);
